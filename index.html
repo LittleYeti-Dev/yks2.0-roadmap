@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SKIPJACK — Program Roadmap</title>
+<style>
+:root{color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:#0d1322;color:#e8eefc;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 20px 60px}
+.hero h1{font-size:30px;margin:0;letter-spacing:.5px}
+.hero .tag{color:#8aa0c8;font-size:15px;margin-top:6px}
+.pill{display:inline-block;background:#152138;border:1px solid #25324c;color:#9fb4d8;border-radius:20px;padding:3px 11px;font-size:12px;margin:10px 8px 0 0}
+h2{font-size:16px;margin:34px 0 12px;color:#cfe0ff;border-bottom:1px solid #25324c;padding-bottom:7px}
+/* timeline */
+.qhead{display:grid;grid-template-columns:150px repeat(8,1fr);gap:6px;margin-bottom:8px}
+.qhead div{font-size:11px;color:#8aa0c8;text-align:center}
+.qhead div:first-child{text-align:left}
+.lane{display:grid;grid-template-columns:150px repeat(8,1fr);gap:6px;align-items:center;margin-bottom:10px}
+.lane .lab{font-size:12px;font-weight:700}
+.bar{grid-column:var(--s) / var(--e);height:42px;border-radius:8px;padding:6px 9px;font-size:11px;overflow:hidden;line-height:1.25}
+.w0{background:linear-gradient(90deg,#1f6feb,#2f86ff)} .w1{background:linear-gradient(90deg,#d6453d,#ff6a5e)}
+.w2{background:linear-gradient(90deg,#1a7f47,#2bbd6c)} .w3{background:linear-gradient(90deg,#8a6d2f,#caa14a)}
+.bar b{font-weight:700}
+.cp{grid-column:2 / 8;height:8px;border-radius:6px;background:repeating-linear-gradient(90deg,#ffd27f,#ffd27f 10px,#0d1322 10px,#0d1322 16px)}
+.miles{display:grid;grid-template-columns:150px repeat(8,1fr);gap:6px;margin-top:4px}
+.miles div{font-size:10px;color:#ffd27f;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.col{background:#121a2c;border:1px solid #25324c;border-radius:12px;padding:12px}
+.col h3{margin:0 0 2px;font-size:13px} .col .q{font-size:11px;color:#8aa0c8;margin-bottom:9px}
+.card{background:#0d1322;border:1px solid #25324c;border-left:4px solid #2f86ff;border-radius:8px;padding:8px 10px;margin-bottom:8px}
+.card .cn{font-weight:700;font-size:13px;letter-spacing:.4px}.card .nm{font-size:11px;color:#8aa0c8;margin:1px 0 5px}
+.t{font-size:10px;padding:1px 6px;border-radius:20px;border:1px solid #2f3d59;color:#9fb4d8;margin-right:4px}
+.t.H{color:#7ee2a8;border-color:#2e6b48}.t.M{color:#ffce7a;border-color:#7a5f25}.t.L{color:#ff9a8f;border-color:#7a3a34}
+.arch{display:flex;flex-direction:column;gap:8px}
+.lines{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}
+.lc{background:#121a2c;border:1px solid #25324c;border-radius:8px;padding:7px;font-size:11px}
+.lc b{color:#cfe0ff}
+.core{background:linear-gradient(90deg,#1f6feb,#2f86ff);border-radius:10px;padding:13px;text-align:center;font-weight:700}
+.core small{display:block;font-weight:400;opacity:.92;font-size:11px;margin-top:3px}
+.plat{background:#152138;border:1px solid #25324c;border-radius:10px;padding:10px;text-align:center;color:#9fb4d8;font-size:13px}
+.foot{color:#5f7396;font-size:11px;margin-top:34px;border-top:1px solid #25324c;padding-top:12px}
+.lead{background:#121a2c;border:1px solid #25324c;border-left:4px solid #ffd27f;border-radius:10px;padding:12px 14px;font-size:13px;color:#cfe0ff}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>SKIPJACK — Program Roadmap</h1>
+    <div class="tag">A zero-trust, edge-first agentic platform. One substrate core; ten product lines ride on it.</div>
+    <span class="pill">Substrate is the core</span><span class="pill">One lane · zero-trust</span><span class="pill">PoC-first · SAFe PI</span><span class="pill">8-quarter horizon</span>
+  </div>
+
+  <h2>The bet</h2>
+  <div class="lead"><b>Lead with three</b> differentiated lines — the custody/freshness substrate, behavioral observe-and-tune, and observed-privilege — and <b>adopt-and-integrate</b> the crowded categories (memory, evaluation, identity, attestation) rather than reinvent them. The moat is the integrated, disconnected-capable, zero-trust whole — the wedge is the degraded edge, where connected-assumption competitors are weakest.</div>
+
+  <h2>Roadmap — critical path across 8 quarters</h2>
+  <div class="qhead">
+    <div>Wave</div><div>Q1<br><small>Aug'26</small></div><div>Q2</div><div>Q3<br><small>'27</small></div><div>Q4</div><div>Q5</div><div>Q6</div><div>Q7<br><small>'28</small></div><div>Q8</div>
+  </div>
+  <div class="lane"><div class="lab" style="color:#2f86ff">W0 Foundation</div><div class="bar w0" style="--s:2;--e:5"><b>FUNDAMENTUM · OCULUS · NOMOS</b><br>KAIROS · ACTA · SYMBOLON — core + SysOps board (substrate never ships without OCULUS)</div></div>
+  <div class="lane"><div class="lab" style="color:#ff6a5e">W1 Lead</div><div class="bar w1" style="--s:4;--e:7"><b>NEMESIS</b> — agent-EDR (observe & tune from beneath); GA with OCULUS as the differentiated spearpoint</div></div>
+  <div class="lane"><div class="lab" style="color:#2bbd6c">W2 Integrate</div><div class="bar w2" style="--s:5;--e:8"><b>THESAURUS · EXAMEN · ARX · PROVIDENTIA</b><br>FABRICA · VOX · ARBITER — adopt proven components, integrate fast</div></div>
+  <div class="lane"><div class="lab" style="color:#caa14a">W3 Horizon</div><div class="bar w3" style="--s:7;--e:10"><b>TEMPESTAS · MENTOR · MIMESIS · IRIS · CUSTOS</b><br>edge/OT/space/cross-domain — accreditation-gated</div></div>
+  <div class="lane"><div class="lab" style="color:#ffd27f">Critical path</div><div class="cp"></div></div>
+  <div class="miles">
+    <div></div><div>stand-up</div><div>◆ wedge PoC<br>◆ IP grant</div><div>◆ lead alpha</div><div>◆ first customer</div><div>◆ GA</div><div>◆ ATO / federal</div><div></div><div>◆ cross-domain</div>
+  </div>
+
+  <h2>Architecture — the substrate is the core</h2>
+  <div class="arch">
+    <div class="lines" id="lines"></div>
+    <div class="core">FUNDAMENTUM — SKIPJACK SUBSTRATE (THE CORE)<small>above-L7 custody · Freshness Quotient · behavioral observe-and-tune · zero-trust enforced once, inherited everywhere</small></div>
+    <div class="plat">Platform-OS: Proxmox + Debian + Docker</div>
+  </div>
+
+  <h2>Product catalog</h2>
+  <div class="grid" id="cat"></div>
+
+  <div class="foot">SKIPJACK — confidential program roadmap. Codenames and sequencing are indicative and subject to change. Prepared for Ologos partners.</div>
+</div>
+
+<script>
+const PRODUCTS=[
+ {code:"FUNDAMENTUM",name:"Substrate / Custody Manager",wave:"W0-foundation",feas:"B-mid",conv:""},
+ {code:"OCULUS",name:"Observed-Privilege Access (SysOps board / PAM)",wave:"W0-foundation",feas:"B-mid",conv:"H"},
+ {code:"NOMOS",name:"AI Harness — governed (the spine)",wave:"W0-foundation",feas:"B-mid",conv:""},
+ {code:"KAIROS",name:"Freshness-Quotient SDK",wave:"W0-foundation",feas:"A-near",conv:"H"},
+ {code:"ACTA",name:"Attestation / Provenance Ledger",wave:"W0-foundation",feas:"A-near",conv:"H"},
+ {code:"SYMBOLON",name:"Agentic ICAM / Identity (AICP)",wave:"W0-foundation",feas:"B-mid",conv:"H"},
+ {code:"NEMESIS",name:"Agent Behavioral Observability & Tuning (agent-EDR)",wave:"W1-lead",feas:"B-mid",conv:"H"},
+ {code:"THESAURUS",name:"Agent Memory & Knowledge Fabric",wave:"W2-integrate",feas:"A-near",conv:"H"},
+ {code:"EXAMEN",name:"Agent Assurance / QA & Eval",wave:"W2-integrate",feas:"A-near",conv:"H"},
+ {code:"ARX",name:"Sysadmin console",wave:"W2-integrate",feas:"A-near",conv:""},
+ {code:"PROVIDENTIA",name:"Business + Cyber Intelligence",wave:"W2-integrate",feas:"B-mid",conv:""},
+ {code:"FABRICA",name:"Agentic SAFe Scrum-in-a-Box",wave:"W2-integrate",feas:"A-near",conv:""},
+ {code:"VOX",name:"Social Media Planning-in-a-Box",wave:"W2-integrate",feas:"A-near",conv:""},
+ {code:"ARBITER",name:"Capability-Ceiling Multi-Model Router (feature)",wave:"W2-integrate",feas:"A-near",conv:"M"},
+ {code:"TEMPESTAS",name:"Degraded WAN Emulator (SIL/HIL)",wave:"W3-horizon",feas:"B-mid",conv:""},
+ {code:"MENTOR",name:"OT/SCADA Advisory Sidecar",wave:"W3-horizon",feas:"B-mid",conv:"H"},
+ {code:"MIMESIS",name:"Synthetic Degraded-Net Dataset / Digital-Twin",wave:"W3-horizon",feas:"B-mid",conv:"L"},
+ {code:"IRIS",name:"DTN / Space & Contact-Window Bridge",wave:"W3-horizon",feas:"C-long",conv:"M"},
+ {code:"CUSTOS",name:"Cross-Domain Integrity Guard",wave:"W3-horizon",feas:"C-long",conv:"M"}
+];
+const LINES=[["PL-2","Governed Spine"],["PL-3","Identity (SYMBOLON)"],["PL-4","Memory (THESAURUS)"],["PL-5","Attestation (ACTA)"],["PL-6","Delivery (FABRICA)"],["PL-7","Ops Console (ARX/OCULUS)"],["PL-8","Behavioral EDR (NEMESIS)"],["PL-9","Assurance (EXAMEN)"],["PL-10","OT Sidecar (MENTOR)"]];
+const WAVES=[["W0-foundation","W0 — Foundation","Q1–Q3"],["W1-lead","W1 — Lead","Q3–Q5"],["W2-integrate","W2 — Integrate","Q4–Q6"],["W3-horizon","W3 — Horizon","Q6–Q8"]];
+document.getElementById('lines').innerHTML=LINES.map(l=>'<div class="lc"><b>'+l[0]+'</b> '+l[1]+'</div>').join('');
+document.getElementById('cat').innerHTML=WAVES.map(w=>{
+ const cards=PRODUCTS.filter(p=>p.wave===w[0]).map(p=>{
+  const cv=p.conv?'<span class="t '+p.conv+'">'+p.conv+'</span>':'';
+  return '<div class="card"><div class="cn">'+p.code+'</div><div class="nm">'+p.name+'</div><span class="t">'+p.feas+'</span>'+cv+'</div>';
+ }).join('');
+ return '<div class="col"><h3>'+w[1]+'</h3><div class="q">'+w[2]+'</div>'+cards+'</div>';
+}).join('');
+</script>
+</body>
+</html>
