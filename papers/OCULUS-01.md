@@ -1,0 +1,17 @@
+# OCULUS-01 — Observation as Control: Visible-Grant, Fail-Closed
+*SKIPJACK OCULUS Series · Observed-Privilege Access / Zero-Trust PAM*
+
+## 1. Use Case
+At 02:14, an on-call SRE requests root on a production payments cluster to clear a stuck migration. A traditional PAM tool checks her out a two-hour just-in-time (JIT) credential, valid for 120 minutes regardless of what happens next — whether she is at her keyboard, asleep, or whether her session token has been replayed from a second host. Under OCULUS, the same elevation is granted only while the SysOps admin's real-time dashboard renders an active, attributable tile for that session: identity, target, command stream, origin. The instant the dashboard loses that signal — the operator closes the view, the telemetry feed drops, the session forks to an unobserved channel — privilege is withdrawn at the enforcement point. The grant lives inside the window of observation and nowhere else.
+
+## 2. The Problem
+Standing privilege is the primary enabler of lateral movement: once an attacker holds credentials valid independent of context, escalation becomes a matter of reuse rather than re-compromise ([Palo Alto Networks, Zero Standing Privileges](https://www.paloaltonetworks.com/cyberpedia/zero-standing-privileges)). Stolen credentials remain the most common initial-access vector ([Verizon 2025 DBIR analysis](https://www.descope.com/blog/post/dbir-2025)). The zero-trust answer is specified — per-session, single-task, dynamically re-evaluated access ([NIST SP 800-207](https://www.paloaltonetworks.com/cyberpedia/what-is-nist-sp-800-207)) — but few deployed controls actually revoke privilege mid-session when the governing signal disappears.
+
+## 3. Why Current PAM Falls Short
+CyberArk, BeyondTrust, Delinea, and HashiCorp Vault all implement time-bound JIT: issue, scope, expire on a timer. None binds the grant to live human observation; the credential is a bearer of authority for its full TTL, observed or not. Adoption compounds the gap — only ~1% of organizations have fully adopted JIT as of January 2026 ([CyberArk](https://www.cyberark.com/press/new-study-only-1-of-organizations-have-fully-adopted-just-in-time-privileged-access-as-ai-driven-identities-rapidly-increase/)).
+
+## 4. How SKIPJACK / OCULUS Solves It
+OCULUS makes observation the authorizing condition, not an after-the-fact log. Privilege is visible-grant: rights exist only while the session is rendered, attributable, and live on the SysOps dashboard. Revocation is equally visible. Loss of visibility is treated as loss of authority — the enforcement point fails **closed**. This collapses the unobserved-but-valid window to zero and operationalizes NIST's dynamic per-session policy: observation *is* the continuous re-evaluation. It composes with field-level privilege ([arXiv:2510.09494](https://arxiv.org/pdf/2510.09494)) and substrate-level behavioral observation, so the signal reflects actual behavior, not mere session liveness.
+
+## 5. References
+- [Palo Alto, Zero Standing Privileges](https://www.paloaltonetworks.com/cyberpedia/zero-standing-privileges) · [NIST SP 800-207](https://www.paloaltonetworks.com/cyberpedia/what-is-nist-sp-800-207) · [CyberArk, Jan 2026](https://www.cyberark.com/press/new-study-only-1-of-organizations-have-fully-adopted-just-in-time-privileged-access-as-ai-driven-identities-rapidly-increase/) · [Verizon DBIR 2025](https://www.descope.com/blog/post/dbir-2025) · [arXiv:2510.09494](https://arxiv.org/pdf/2510.09494)
