@@ -1,0 +1,41 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>PINAX panel: IRIS</title>
+<desc>NSQ-Wave panel for IRIS: DTN custody-freshness gap across contact windows, source-bound evidence, SKIPJACK answer.</desc>
+<rect width="900" height="620" fill="#0F1419"/>
+<rect x="0" y="0" width="6" height="620" fill="#00D9FF"/>
+<path d="M40 40 q10 -16 20 0 t20 0 t20 0 t20 0 t20 0" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5"/>
+<text x="40" y="92" fill="#E8EEFC" font-size="34" font-weight="700">IRIS</text>
+<text x="40" y="118" fill="#8AA0C8" font-size="14.5">DTN / Space &amp; Contact-Window Bridge · above Layer 7</text>
+<rect x="690" y="64" width="170" height="30" rx="15" fill="#1A1F2E" stroke="#25324C"/>
+<text x="775" y="84" fill="#00D9FF" font-size="13" text-anchor="middle" letter-spacing="1">SPACE/DTN</text>
+<line x1="40" y1="140" x2="860" y2="140" stroke="#25324C" stroke-width="1"/>
+<text x="40" y="172" fill="#00D9FF" font-size="13" letter-spacing="2">DOCUMENTED PROBLEM</text>
+<text x="40" y="200" fill="#E8EEFC" font-size="18">DTN moves bytes across the partition. It does not tell an</text>
+<text x="40" y="226" fill="#E8EEFC" font-size="18">agent whether held state is <tspan fill="#00D9FF" font-weight="700">still fresh</tspan> enough to act on after</text>
+<text x="40" y="252" fill="#E8EEFC" font-size="18">a contact window closes. The agent decides anyway.</text>
+<rect x="40" y="278" width="820" height="86" rx="10" fill="#1A1F2E" stroke="#00D9FF" stroke-width="1.5"/>
+<text x="60" y="316" fill="#E8EEFC" font-size="22" font-weight="700">Custody is <tspan fill="#00D9FF">solved</tspan>. Freshness across the gap</text>
+<text x="60" y="346" fill="#E8EEFC" font-size="22" font-weight="700">is <tspan fill="#00D9FF">not</tspan> — and the two cannot be solved apart.</text>
+<text x="840" y="353" fill="#8AA0C8" font-size="11" text-anchor="end">src: nsq:tactical-substrate (Zenodo 20180145)</text>
+<text x="40" y="396" fill="#00D9FF" font-size="13" letter-spacing="2">SOURCE-BOUND EVIDENCE</text>
+<rect x="40" y="408" width="265" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="56" y="434" fill="#E8EEFC" font-size="14" font-weight="700">No contemporaneous path</text>
+<text x="56" y="456" fill="#8AA0C8" font-size="12.5">Links appear and vanish on</text>
+<text x="56" y="473" fill="#8AA0C8" font-size="12.5">orbital schedules; TCP fails.</text>
+<text x="56" y="492" fill="#00D9FF" font-size="11">[RFC 4838 — DTN Arch.]</text>
+<rect x="318" y="408" width="265" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="334" y="434" fill="#E8EEFC" font-size="14" font-weight="700">Instability breeds staleness</text>
+<text x="334" y="456" fill="#8AA0C8" font-size="12.5">Link failure risk "directly</text>
+<text x="334" y="473" fill="#8AA0C8" font-size="12.5">increases data staleness."</text>
+<text x="334" y="492" fill="#00D9FF" font-size="11">[SFL-LEO, arXiv 2025]</text>
+<rect x="596" y="408" width="264" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="612" y="434" fill="#E8EEFC" font-size="14" font-weight="700">Delay defeats feedback</text>
+<text x="612" y="456" fill="#8AA0C8" font-size="12.5">Mars round trip: 8 to 40 min;</text>
+<text x="612" y="473" fill="#8AA0C8" font-size="12.5">a TCP timeout spans tens.</text>
+<text x="612" y="492" fill="#00D9FF" font-size="11">[RFC 5326 — LTP]</text>
+<rect x="40" y="516" width="820" height="58" rx="10" fill="#00D9FF"/>
+<text x="60" y="542" fill="#0F1419" font-size="14" font-weight="700" letter-spacing="1">SKIPJACK ANSWERS</text>
+<text x="60" y="563" fill="#0F1419" font-size="15">A freshness manifest bound to every BPv7 bundle via BPSec. The agent acts, degrades, or defers on an explicit freshness bound.</text>
+<text x="40" y="600" fill="#8AA0C8" font-size="11">IRIS a1f3-iris-0F14 · BPv7 + BPSec · source-bound</text>
+<text x="860" y="600" fill="#8AA0C8" font-size="11" text-anchor="end">Non Sequitur Publishing — Confidential</text>
+</svg>

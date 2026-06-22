@@ -1,0 +1,41 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>PINAX panel: ARBITER</title>
+<desc>NSQ-Wave panel for ARBITER: single-model routing gap, source-bound evidence, SKIPJACK answer.</desc>
+<rect width="900" height="620" fill="#0F1419"/>
+<rect x="0" y="0" width="6" height="620" fill="#00D9FF"/>
+<path d="M40 40 q10 -16 20 0 t20 0 t20 0 t20 0 t20 0" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5"/>
+<text x="40" y="92" fill="#E8EEFC" font-size="34" font-weight="700">ARBITER</text>
+<text x="40" y="118" fill="#8AA0C8" font-size="14.5">Capability-Ceiling Multi-Model Router</text>
+<rect x="690" y="64" width="170" height="30" rx="15" fill="#1A1F2E" stroke="#25324C"/>
+<text x="775" y="84" fill="#00D9FF" font-size="13" text-anchor="middle" letter-spacing="1">FEATURE · ROUTER</text>
+<line x1="40" y1="140" x2="860" y2="140" stroke="#25324C" stroke-width="1"/>
+<text x="40" y="172" fill="#00D9FF" font-size="13" letter-spacing="2">DOCUMENTED PROBLEM</text>
+<text x="40" y="200" fill="#E8EEFC" font-size="18">One model, one endpoint is administratively simple but provably</text>
+<text x="40" y="226" fill="#E8EEFC" font-size="18">sub-optimal on cost, latency, and capability — and <tspan fill="#00D9FF" font-weight="700">cannot</tspan></text>
+<text x="40" y="252" fill="#E8EEFC" font-size="18"><tspan fill="#00D9FF" font-weight="700">enforce</tspan> a data-classification boundary at all.</text>
+<rect x="40" y="278" width="820" height="86" rx="10" fill="#1A1F2E" stroke="#00D9FF" stroke-width="1.5"/>
+<text x="60" y="316" fill="#E8EEFC" font-size="22" font-weight="700">Classification is <tspan fill="#00D9FF">constraint,</tspan> not preference.</text>
+<text x="60" y="346" fill="#E8EEFC" font-size="22" font-weight="700">Existing gateways <tspan fill="#00D9FF">only optimize cost.</tspan></text>
+<text x="840" y="353" fill="#8AA0C8" font-size="11" text-anchor="end">src: [10] LiteLLM/OpenRouter</text>
+<text x="40" y="396" fill="#00D9FF" font-size="13" letter-spacing="2">SOURCE-BOUND EVIDENCE</text>
+<rect x="40" y="408" width="265" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="56" y="434" fill="#E8EEFC" font-size="14" font-weight="700">Routing cuts spend</text>
+<text x="56" y="456" fill="#8AA0C8" font-size="12.5">85% savings at 95% quality,</text>
+<text x="56" y="473" fill="#8AA0C8" font-size="12.5">strong model on 14% only.</text>
+<text x="56" y="492" fill="#00D9FF" font-size="11">[2] RouteLLM</text>
+<rect x="318" y="408" width="265" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="334" y="434" fill="#E8EEFC" font-size="14" font-weight="700">Federal is categorical</text>
+<text x="334" y="456" fill="#8AA0C8" font-size="12.5">IL5 demands physical, not</text>
+<text x="334" y="473" fill="#8AA0C8" font-size="12.5">logical, infra separation.</text>
+<text x="334" y="492" fill="#00D9FF" font-size="11">[5][6]</text>
+<rect x="596" y="408" width="264" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="612" y="434" fill="#E8EEFC" font-size="14" font-weight="700">Lock-in is board risk</text>
+<text x="612" y="456" fill="#8AA0C8" font-size="12.5">Migration cost reported near</text>
+<text x="612" y="473" fill="#8AA0C8" font-size="12.5">order of $315,000 per project.</text>
+<text x="612" y="492" fill="#00D9FF" font-size="11">[7]</text>
+<rect x="40" y="516" width="820" height="58" rx="10" fill="#00D9FF"/>
+<text x="60" y="542" fill="#0F1419" font-size="14" font-weight="700" letter-spacing="1">SKIPJACK ANSWERS</text>
+<text x="60" y="563" fill="#0F1419" font-size="15">Route on four axes — cost, latency, classification, capability ceiling — with classification enforced as a hard zero-trust constraint first.</text>
+<text x="40" y="600" fill="#8AA0C8" font-size="11">ARBITER arbiter-tag · zero-trust PEP · source-bound</text>
+<text x="860" y="600" fill="#8AA0C8" font-size="11" text-anchor="end">Non Sequitur Publishing — Confidential</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>PINAX panel: NOMOS</title>
+<desc>NSQ-Wave panel for NOMOS: agentic fitness gap problem, source-bound evidence, SKIPJACK answer.</desc>
+<rect width="900" height="620" fill="#0F1419"/>
+<rect x="0" y="0" width="6" height="620" fill="#00D9FF"/>
+<path d="M40 40 q10 -16 20 0 t20 0 t20 0 t20 0 t20 0" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5"/>
+<text x="40" y="92" fill="#E8EEFC" font-size="34" font-weight="700">NOMOS</text>
+<text x="40" y="118" fill="#8AA0C8" font-size="14.5">Governed Agent Spine</text>
+<rect x="690" y="64" width="170" height="30" rx="15" fill="#1A1F2E" stroke="#25324C"/>
+<text x="775" y="84" fill="#00D9FF" font-size="13" text-anchor="middle" letter-spacing="1">PL-2 · THE SPINE</text>
+<line x1="40" y1="140" x2="860" y2="140" stroke="#25324C" stroke-width="1"/>
+<text x="40" y="172" fill="#00D9FF" font-size="13" letter-spacing="2">DOCUMENTED PROBLEM</text>
+<text x="40" y="200" fill="#E8EEFC" font-size="18">Governance certifies fitness once; agents act continuously,</text>
+<text x="40" y="226" fill="#E8EEFC" font-size="18">compose unreviewed tools, and <tspan fill="#00D9FF" font-weight="700">drift at machine speed</tspan>.</text>
+<text x="40" y="252" fill="#E8EEFC" font-size="18">The certified system is not the one about to act.</text>
+<rect x="40" y="278" width="820" height="86" rx="10" fill="#1A1F2E" stroke="#00D9FF" stroke-width="1.5"/>
+<text x="60" y="316" fill="#E8EEFC" font-size="22" font-weight="700">Frameworks describe <tspan fill="#00D9FF">what</tspan> must be true.</text>
+<text x="60" y="346" fill="#E8EEFC" font-size="22" font-weight="700">None ship the <tspan fill="#00D9FF">gate</tspan> that refuses an action.</text>
+<text x="840" y="353" fill="#8AA0C8" font-size="11" text-anchor="end">src: nsq:accreditation-problem</text>
+<text x="40" y="396" fill="#00D9FF" font-size="13" letter-spacing="2">SOURCE-BOUND EVIDENCE</text>
+<rect x="40" y="408" width="265" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="56" y="434" fill="#E8EEFC" font-size="14" font-weight="700">Agentic fitness gap</text>
+<text x="56" y="456" fill="#8AA0C8" font-size="12.5">Legacy assurance unsuited to</text>
+<text x="56" y="473" fill="#8AA0C8" font-size="12.5">machine-speed agents.</text>
+<text x="56" y="492" fill="#00D9FF" font-size="11">[AAGATE]</text>
+<rect x="318" y="408" width="265" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="334" y="434" fill="#E8EEFC" font-size="14" font-weight="700">Run-to-run variance</text>
+<text x="334" y="456" fill="#8AA0C8" font-size="12.5">Point-in-time assessment fails</text>
+<text x="334" y="473" fill="#8AA0C8" font-size="12.5">to generalize to next run.</text>
+<text x="334" y="492" fill="#00D9FF" font-size="11">[OAgents]</text>
+<rect x="596" y="408" width="264" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="612" y="434" fill="#E8EEFC" font-size="14" font-weight="700">Decouple decide/act</text>
+<text x="612" y="456" fill="#8AA0C8" font-size="12.5">PDP/PEP separation rarely</text>
+<text x="612" y="473" fill="#8AA0C8" font-size="12.5">applied to agent tool calls.</text>
+<text x="612" y="492" fill="#00D9FF" font-size="11">[NIST-ZTA]</text>
+<rect x="40" y="516" width="820" height="58" rx="10" fill="#00D9FF"/>
+<text x="60" y="542" fill="#0F1419" font-size="14" font-weight="700" letter-spacing="1">SKIPJACK ANSWERS</text>
+<text x="60" y="563" fill="#0F1419" font-size="15">A runtime spine: orientation-before-execution, a PDP that gates every consequential act, and evidence-based graduation.</text>
+<text x="40" y="600" fill="#8AA0C8" font-size="11">NOMOS noms-spine-0F14 · govern-every-act · source-bound</text>
+<text x="860" y="600" fill="#8AA0C8" font-size="11" text-anchor="end">Non Sequitur Publishing — Confidential</text>
+</svg>

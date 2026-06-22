@@ -1,0 +1,41 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>PINAX panel: PROVIDENTIA</title>
+<desc>NSQ-Wave panel for PROVIDENTIA: agent intelligence substrate gap, source-bound evidence, SKIPJACK answer.</desc>
+<rect width="900" height="620" fill="#0F1419"/>
+<rect x="0" y="0" width="6" height="620" fill="#00D9FF"/>
+<path d="M40 40 q10 -16 20 0 t20 0 t20 0 t20 0 t20 0" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5"/>
+<text x="40" y="92" fill="#E8EEFC" font-size="34" font-weight="700">PROVIDENTIA</text>
+<text x="40" y="118" fill="#8AA0C8" font-size="14.5">Business + Cyber Intelligence</text>
+<rect x="690" y="64" width="170" height="30" rx="15" fill="#1A1F2E" stroke="#25324C"/>
+<text x="775" y="84" fill="#00D9FF" font-size="13" text-anchor="middle" letter-spacing="1">INTEL</text>
+<line x1="40" y1="140" x2="860" y2="140" stroke="#25324C" stroke-width="1"/>
+<text x="40" y="172" fill="#00D9FF" font-size="13" letter-spacing="2">DOCUMENTED PROBLEM</text>
+<text x="40" y="200" fill="#E8EEFC" font-size="18">Agent threats spread across rival taxonomies — MAESTRO, ATLAS,</text>
+<text x="40" y="226" fill="#E8EEFC" font-size="18">OWASP — but <tspan fill="#00D9FF" font-weight="700">no unified substrate</tspan> shows a SOC its own</text>
+<text x="40" y="252" fill="#E8EEFC" font-size="18">agents, their threats, controls, and business blast radius.</text>
+<rect x="40" y="278" width="820" height="86" rx="10" fill="#1A1F2E" stroke="#00D9FF" stroke-width="1.5"/>
+<text x="60" y="316" fill="#E8EEFC" font-size="22" font-weight="700">An agent compromise is <tspan fill="#00D9FF">cyber and business</tspan></text>
+<text x="60" y="346" fill="#E8EEFC" font-size="22" font-weight="700">at once — and falls through the <tspan fill="#00D9FF">seams.</tspan></text>
+<text x="840" y="353" fill="#8AA0C8" font-size="11" text-anchor="end">src: nsq:hgc3ae2</text>
+<text x="40" y="396" fill="#00D9FF" font-size="13" letter-spacing="2">SOURCE-BOUND EVIDENCE</text>
+<rect x="40" y="408" width="265" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="56" y="434" fill="#E8EEFC" font-size="14" font-weight="700">ATLAS keeps growing</text>
+<text x="56" y="456" fill="#8AA0C8" font-size="12.5">16 tactics and 84 techniques</text>
+<text x="56" y="473" fill="#8AA0C8" font-size="12.5">against AI as of late 2025.</text>
+<text x="56" y="492" fill="#00D9FF" font-size="11">[2] MITRE ATLAS</text>
+<rect x="318" y="408" width="265" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="334" y="434" fill="#E8EEFC" font-size="14" font-weight="700">Shadow AI is a loss</text>
+<text x="334" y="456" fill="#8AA0C8" font-size="12.5">&gt;40% hit a shadow-AI</text>
+<text x="334" y="473" fill="#8AA0C8" font-size="12.5">incident by 2030.</text>
+<text x="334" y="492" fill="#00D9FF" font-size="11">[12][13] Gartner</text>
+<rect x="596" y="408" width="264" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="612" y="434" fill="#E8EEFC" font-size="14" font-weight="700">NIST mapping gap</text>
+<text x="612" y="456" fill="#8AA0C8" font-size="12.5">CSF 2.0 AI profile drafted</text>
+<text x="612" y="473" fill="#8AA0C8" font-size="12.5">only in Dec 2025.</text>
+<text x="612" y="492" fill="#00D9FF" font-size="11">[14] NIST</text>
+<rect x="40" y="516" width="820" height="58" rx="10" fill="#00D9FF"/>
+<text x="60" y="542" fill="#0F1419" font-size="14" font-weight="700" letter-spacing="1">SKIPJACK ANSWERS</text>
+<text x="60" y="563" fill="#0F1419" font-size="15">A control registry with dual MAESTRO/ATLAS mapping and fused business-cyber intelligence — recorded once, rendered three ways.</text>
+<text x="40" y="600" fill="#8AA0C8" font-size="11">PROVIDENTIA providentia-tag · CSF 2.0 cross-walk · source-bound</text>
+<text x="860" y="600" fill="#8AA0C8" font-size="11" text-anchor="end">Non Sequitur Publishing — Confidential</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>PINAX panel: MIMESIS</title>
+<desc>NSQ-Wave panel for MIMESIS: degraded-data scarcity problem, source-bound evidence, SKIPJACK answer.</desc>
+<rect width="900" height="620" fill="#0F1419"/>
+<rect x="0" y="0" width="6" height="620" fill="#00D9FF"/>
+<path d="M40 40 q10 -16 20 0 t20 0 t20 0 t20 0 t20 0" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5"/>
+<text x="40" y="92" fill="#E8EEFC" font-size="34" font-weight="700">MIMESIS</text>
+<text x="40" y="118" fill="#8AA0C8" font-size="14.5">Synthetic Degraded-Network Dataset / Digital-Twin</text>
+<rect x="690" y="64" width="170" height="30" rx="15" fill="#1A1F2E" stroke="#25324C"/>
+<text x="775" y="84" fill="#00D9FF" font-size="13" text-anchor="middle" letter-spacing="1">DATA/TWIN</text>
+<line x1="40" y1="140" x2="860" y2="140" stroke="#25324C" stroke-width="1"/>
+<text x="40" y="172" fill="#00D9FF" font-size="13" letter-spacing="2">DOCUMENTED PROBLEM</text>
+<text x="40" y="200" fill="#E8EEFC" font-size="18">Edge AI trains against a network that does not exist</text>
+<text x="40" y="226" fill="#E8EEFC" font-size="18">in the field. Degraded data is <tspan fill="#00D9FF" font-weight="700">scarce and sensitive</tspan>,</text>
+<text x="40" y="252" fill="#E8EEFC" font-size="18">non-reproducible, and not parameterizable.</text>
+<rect x="40" y="278" width="820" height="86" rx="10" fill="#1A1F2E" stroke="#00D9FF" stroke-width="1.5"/>
+<text x="60" y="316" fill="#E8EEFC" font-size="22" font-weight="700">Systems pass on <tspan fill="#00D9FF">benchmark</tspan></text>
+<text x="60" y="346" fill="#E8EEFC" font-size="22" font-weight="700">and <tspan fill="#00D9FF">fail in the field</tspan> — behavior unknown.</text>
+<text x="840" y="353" fill="#8AA0C8" font-size="11" text-anchor="end">src: military synthetic-data lit [3]</text>
+<text x="40" y="396" fill="#00D9FF" font-size="13" letter-spacing="2">SOURCE-BOUND EVIDENCE</text>
+<rect x="40" y="408" width="265" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="56" y="434" fill="#E8EEFC" font-size="14" font-weight="700">Data is scarce</text>
+<text x="56" y="456" fill="#8AA0C8" font-size="12.5">Defense data is sparse,</text>
+<text x="56" y="473" fill="#8AA0C8" font-size="12.5">classified, hard to collect.</text>
+<text x="56" y="492" fill="#00D9FF" font-size="11">[military synthetic-data 3]</text>
+<rect x="318" y="408" width="265" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="334" y="434" fill="#E8EEFC" font-size="14" font-weight="700">The sim2real gap</text>
+<text x="334" y="456" fill="#8AA0C8" font-size="12.5">Synthetic-real divergence</text>
+<text x="334" y="473" fill="#8AA0C8" font-size="12.5">degrades deployed policy.</text>
+<text x="334" y="492" fill="#00D9FF" font-size="11">[sim2real survey 7][8]</text>
+<rect x="596" y="408" width="264" height="92" rx="8" fill="#1A1F2E" stroke="#25324C"/>
+<text x="612" y="434" fill="#E8EEFC" font-size="14" font-weight="700">No standard datasets</text>
+<text x="612" y="456" fill="#8AA0C8" font-size="12.5">No shared degraded-net sets;</text>
+<text x="612" y="473" fill="#8AA0C8" font-size="12.5">results over-optimistic.</text>
+<text x="612" y="492" fill="#00D9FF" font-size="11">[network-ML survey 11]</text>
+<rect x="40" y="516" width="820" height="58" rx="10" fill="#00D9FF"/>
+<text x="60" y="542" fill="#0F1419" font-size="14" font-weight="700" letter-spacing="1">SKIPJACK ANSWERS</text>
+<text x="60" y="563" fill="#0F1419" font-size="15">Synthetic degraded-link scenarios paired with a WAN-emulator digital twin; fidelity measured, reported, and versioned, not elided.</text>
+<text x="40" y="600" fill="#8AA0C8" font-size="11">MIMESIS f6a8-mim-0F14 · twin + fidelity · source-bound</text>
+<text x="860" y="600" fill="#8AA0C8" font-size="11" text-anchor="end">Non Sequitur Publishing — Confidential</text>
+</svg>
